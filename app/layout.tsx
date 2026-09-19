@@ -6,23 +6,7 @@ export const metadata: Metadata = {
   title: 'Receipts — Meta Pixel Event Log',
   description: 'See what your Meta Pixel events actually send. Receipts is a privacy-minded validation tool for developers, agencies, and growth teams.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  icons: { icon: '/icon-light-32x32.png', apple: '/apple-icon.png' },
 }
 
 export const viewport: Viewport = {
